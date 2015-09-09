@@ -27,11 +27,11 @@ void print_last()
     node* crawler = head;
 
     // until the end of the list
-    // remember that the arrow syntax (->next)
-    // is a shortcut for dereferencing
-    // a pointer to a struct, then accessing
-    // its next field equivalent to the awkward:
-    // (*crawler).next.
+      // remember that the arrow syntax (->next)
+      // is a shortcut for dereferencing
+      // a pointer to a struct, then accessing
+      // its next field. equivalent to the awkward:
+      // (*crawler).next.
     while (crawler->next != NULL)
     {
       // keep traversing the list
